@@ -6,6 +6,7 @@ import Chevrons from '@/assets/graphic-elements/chevrons.svg';
 import MailLogo from '@/assets/images/logos/mail.svg';
 import LinkedinLogo from '@/assets/images/logos/linkedin-logo.svg';
 import GithubLogo from '@/assets/images/logos/github-logo.svg';
+import Rectangle from '@/assets/graphic-elements/Rectangle 17.png';
 
 type ContactLink = {
   id: number;
@@ -19,19 +20,19 @@ const contactLinks: ContactLink[] = [
     id: 1,
     label: 'Mail',
     icon: MailLogo,
-    href: "mailto:'",
+    href: 'mailto:jeremylevy.131290@gmail.com',
   },
   {
     id: 2,
     label: 'Linkedin',
     icon: LinkedinLogo,
-    href: "mailto:'",
+    href: 'https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-levy/',
   },
   {
     id: 3,
     label: 'Github',
     icon: GithubLogo,
-    href: "mailto:'",
+    href: 'https://github.com/jeremieLevy',
   },
 ];
 
@@ -67,12 +68,12 @@ export default function ContactMe() {
   return (
     <section id="contact">
       <ContainerTemplate size="large">
-        <div className="pb-20 relative">
-          <div className="flex items-center w-full justify-between mb-10!">
-            <h3 className="text-4xl! font-mono-alt! font-bold! tracking-wider!">
+        <div className="pb-48 relative">
+          <div className="flex items-center w-full justify-between">
+            <h3 className="lg:text-4xl! text-2xl! font-mono-alt! font-bold! tracking-wider!">
               On se parle ?
             </h3>
-            <img src={Chevrons} className="max-w-24" />
+            <img src={Chevrons} className="lg:max-w-24 max-w-18" />
           </div>
           {handleSetBashCommand(userOs ?? '') !== undefined ? (
             <div className="bash-contact-cmd" onClick={copy}>
@@ -103,8 +104,29 @@ export default function ContactMe() {
           )}
           <div className="contact-links">
             {contactLinks.map((link) => (
-              <div className="tag"></div>
+              <div className="tag">
+                <a href={link.href} target="_blank">
+                  <div className="font-mono-alt w-full font-bold flex justify-center">
+                    <div className="relative w-fit">
+                      <div className="w-fit min-w-36 transition-all duration-300 ease-out">
+                        {link.label}
+                      </div>
+                      <img
+                        src={link.icon}
+                        alt={`${link.label}-icon`}
+                        className="max-w-6 absolute top-0 -left-12"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
             ))}
+
+            <img
+              src={Rectangle}
+              className="absolute scale-x-[-1] left-0 top-12 hidden lg:block"
+            />
+            <div className="w-3 rounded-full h-3 bg-light left-20 -bottom-1 absolute hidden lg:block" />
           </div>
         </div>
       </ContainerTemplate>

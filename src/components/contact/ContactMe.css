@@ -1,7 +1,7 @@
 @reference '@/index.css';
 
 .bash-contact-cmd {
-  @apply py-6 px-14 rounded-full border-light border flex items-center justify-between;
+  @apply py-6 px-14 rounded-full border-light border flex items-center justify-between mt-10;
   background-color: var(--color-dark-alt);
 }
 
@@ -14,9 +14,13 @@
 }
 
 .contact-links {
-  @apply w-full;
+  @apply w-full flex flex-wrap justify-start lg:justify-end py-10 gap-8 relative;
 }
 
 .tag {
-  @apply max-w-64 px-6 py-4 bg-light;
+  @apply cursor-pointer lg:max-w-36 lg:w-72 w-full px-6 py-4 bg-light text-dark text-center transition-all duration-300 ease-out rounded-full overflow-hidden;
+
+  &:hover {
+    @apply lg:max-w-72 max-w-full bg-extralight lg:text-end;
+  }
 }

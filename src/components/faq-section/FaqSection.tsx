@@ -26,7 +26,7 @@ const faqQuestions: Question[] = [
     quest:
       'Est ce que jeremie-dev maitrise les concepts devops ? (CI/CD, démarche qualité...)',
     answer:
-      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, docker-compose que ce soit en local ou en production. Il maitrise également le concept de l'éllaboration et exécution d'un plan de test applicatif/métier : Tests unitaires, intégration et enfin end-to-end côté client",
+      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, que ce soit en local ou en production. Il maitrise également le concept de l'éllaboration et exécution d'un plan de test applicatif/métier : Tests unitaires, intégration et enfin end-to-end côté client. En outre il travaille également avec Github Action pour tout ce qui relève du domaine de la gestion de l'automatisation des tâches concernant l'intégration et le déploiement continu.",
   },
   {
     id: 3,
@@ -38,13 +38,13 @@ const faqQuestions: Question[] = [
     id: 4,
     quest: 'Est ce que jeremie-dev s’intègre facilement dans une équipe tech ?',
     answer:
-      "Bien sur ! Il a de l'expérience de 2 ans dans un environnement produit/tech en méthode Agile/Scrum, avec CPO, product owner/manager, ui/ux designer etc..  Il est d'ailleurs possible de consulter les recommandations de ses anciens collègues sur Linkedin.",
+      "Bien sur ! Il a une expérience de 2 ans dans un environnement produit/tech en méthode Agile/Scrum, sous la responsabilité d'un CPO, de plusieurs product owner/managers, et en collaboration avec une UI/UX designer.  Il est d'ailleurs possible de consulter les recommandations de ses anciens collègues sur Linkedin.",
   },
   {
     id: 5,
     quest: 'Est ce que jeremie-dev peut générer des blagues ?',
     answer:
-      "Il en connait quelques unes, surtout celle du cannif... C'est un petit fien...",
+      "Il en connait quelques unes, surtout celle du canif... C'est un petit fien...",
   },
   {
     id: 6,
