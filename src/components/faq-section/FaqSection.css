@@ -1,7 +1,7 @@
 @reference '@/index.css';
 
 .graphic-element {
-  @apply relative mx-auto w-fit sm:scale-100 scale-75;
+  @apply relative mx-auto w-fit sm:scale-75 scale-50;
   transform: translateY(-4rem);
 }
 
@@ -14,7 +14,7 @@
 }
 
 .question-content {
-  @apply cursor-pointer font-mono-alt md:text-5xl text-3xl text-start! transition-all duration-300 ease-in-out text-balance border-b border-b-light;
+  @apply cursor-pointer font-mono-alt md:text-[45px] text-3xl text-start! transition-all duration-300 ease-in-out text-balance border-b border-b-light;
   position: relative;
   overflow-y: hidden;
 }
@@ -28,7 +28,7 @@
 }
 
 .question {
-  @apply mb-6 min-h-16 font-bold transition-all duration-150 ease-out text-light;
+  @apply mb-6 min-h-16 font-bold transition-all duration-150 ease-out text-light max-w-[95%];
 }
 
 .question:hover {

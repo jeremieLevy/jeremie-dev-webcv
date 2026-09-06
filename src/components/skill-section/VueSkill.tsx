@@ -16,18 +16,25 @@ export default function VueSkill() {
             <div className="w-full">
               <h2 className="mb-8!">Solide connaissance du framework VueJS</h2>
               <p className="text-start">
-                Au terme d'une expérience de deux ans comme développeur Frontend
-                au sein de l'équipe tech de Frenchfounders à Marseille, j'ai
-                participé à l'élaboration de plusieurs features sur la
-                plateforme de l'entreprise, qui vont d'un moteur de recherche
-                avec performances IA, tunnel d'onboarding, intégration complète
-                d'une SPA en passant également par les phases de supports et de
-                maintenance technique du projet durant différents cooldown. J'ai
-                principalement travaillé avec le framework VueJS en Typescript
-                ce qui m'a permis d'acquérir une connaissance assez large de cet
-                outil au terme de ces deux ans, ainsi qu'avec la palette
-                d'outils relative à tout l'écosystème Vue : Tanstack Vue query
-                pour les requêtes, Pinia, i18n...
+                Au cours de ces deux années passées en tant que développeur
+                Frontend au sein de l'équipe tech de{' '}
+                <strong>Frenchfounders</strong> à Marseille, j'ai eu
+                l'opportunité de contribuer à des{' '}
+                <strong>
+                  features à fort impact sur la plateforme de l'entreprise
+                </strong>{' '}
+                : un moteur de recherche intégrant des performances IA, tunnel
+                d'onboarding, ainsi que l'intégration complète de plusieurs
+                SPAs. J'ai également pris part aux{' '}
+                <strong>
+                  phases de support et de maintenance technique du projet
+                </strong>{' '}
+                lors de différents cooldown, développant ainsi une vision plus
+                globale du cycle de vie d'un produit. J'ai principalement
+                travaillé avec le <strong>framework VueJS en Typescript</strong>
+                , dont j'ai acquis une maîtrise solide au terme de ces deux ans,
+                ainsi que de l'ensemble de <strong>l'écosystème Vue</strong> :
+                Tanstack Vue Query pour les requêtes, Pinia, i18n...
               </p>
             </div>
           </div>

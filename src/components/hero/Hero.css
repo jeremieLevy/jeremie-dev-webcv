@@ -31,7 +31,7 @@
 }
 
 .chevron {
-  @apply absolute md:block hidden md:top-[57%]! top-[59%] md:left-[50%]! md:translate-x-48 left-20;
+  @apply absolute md:block hidden md:top-[57%]! top-[59%] md:left-[50%]! z-10 md:translate-x-48 left-20;
   animation: 1.5s ease-in-out 1s infinite alternate slide-in-y;
 }
 

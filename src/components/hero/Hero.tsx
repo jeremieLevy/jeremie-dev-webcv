@@ -18,10 +18,13 @@ export default function Hero() {
           <p className="font-mono-alt! mb-6! max-w-120">
             Je suis un développeur web fullstack Typescript - NodeJS
           </p>
-          <Button cta="Commencer" href="#vue-skills" />
+          <div className="flex items-center gap-4 relative z-20">
+            <Button cta="Commencer" href="#vue-skills" />
+            <Button cta="Contacter" href="#contact" />
+          </div>
         </div>
-        <img src={Chevrons} alt="" className="chevrons" />
-        <img src={SingleChevron} alt="" className="chevron" />
+        <img src={Chevrons} className="chevrons" />
+        <img src={SingleChevron} className="chevron" />
       </div>
     </section>
   );
