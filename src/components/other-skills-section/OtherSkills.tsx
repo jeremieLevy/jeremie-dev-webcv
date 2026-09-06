@@ -37,18 +37,16 @@ export default function OtherSkills() {
             <div className="order-2 md:order-1 w-full">
               <h3>Et d'autres...</h3>
               <p>
-                J'ai également un scope de compétences plus élargi du fait de
+                J'ai également un scope de compétences plus élargi grâce à
                 l'utilisation de technologies Backend (environnement serveur
-                NodeJS en Typescript) avec une bonne pratique du framework
-                NestJS (avec ORM Prisma et base de donnée PostgreSQL), et ce
-                scope s’étend aussi dans toutes les applications liées à
-                l’intégration et le déploiement continu dans la démarche Devops
-                et la démarche qualité (stack Docker, CI/CD : workflows Github
-                Actions, tests: Vitest, Jest, Playwright, gestion de projet:
-                Notion, Trello.. ) Enfin, je possède également des connaissances
-                et ai eu l’occasion de pratiquer en entreprise les outils
-                intégrant de l’IA dans les process et workflows de travail afin
-                d’améliorer la productivité (LLMs, Claude code, cowork,
+                NodeJS en Typescript), avec une bonne pratique du framework
+                NestJS (ORM Prisma, base de donnée PostgreSQL). Ce scope couvre
+                aussi l'intégration et le déploiement continu, dans une démarche
+                Devops et qualité (Docker, CI/CD : Github Actions, tests :
+                Vitest, Jest, Playwright, gestion de projet : Notion, Trello..).
+                Enfin, j'ai eu l'occasion de pratiquer en entreprise des outils
+                intégrant l'IA dans les process et workflows de travail, afin
+                d'améliorer la productivité (LLMs, Claude Code, Cowork,
                 connecteurs..)
               </p>
             </div>

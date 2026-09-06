@@ -9,6 +9,7 @@ import ExperiencesList from './components/experiences-section/ExperiencesList';
 import GraphicPortfolio from './components/portfolio-section/GraphicPortfolio';
 import FaqSection from './components/faq-section/FaqSection';
 import Projects from './components/projects/Projects';
+import ContactMe from './components/contact/ContactMe';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Projects />
         <GraphicPortfolio />
         <FaqSection />
+        <ContactMe />
       </main>
     </ThemeProvider>
   );

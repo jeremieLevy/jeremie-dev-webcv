@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import './Button.css';
 
 type Props = {
-  cta: string;
+  cta?: string;
   theme?: 'base' | 'outline' | 'discret' | 'liquid';
   href?: string;
   target?: '_blank';
