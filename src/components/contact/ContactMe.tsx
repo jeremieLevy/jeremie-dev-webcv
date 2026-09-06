@@ -57,7 +57,7 @@ export default function ContactMe() {
   const handleSetBashCommand = (os: string) => {
     if (os === 'Windows') {
       return 'start "mailto:email@exemple.com?subject=Contact"';
-    } else if (os === 'MacOs') {
+    } else if (os === 'MacOS') {
       return 'open "mailto:email@exemple.com?subject=Contact"';
     } else if (os === 'Linux') {
       return 'xdg-open "mailto:email@exemple.com?subject=Contact"';
