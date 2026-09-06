@@ -26,7 +26,7 @@ const faqQuestions: Question[] = [
     quest:
       'Est ce que jeremie-dev maitrise les concepts devops ? (CI/CD, démarche qualité...)',
     answer:
-      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, que ce soit en local ou en production. Il maitrise également le concept de l'éllaboration et exécution d'un plan de test applicatif/métier : Tests unitaires, intégration et enfin end-to-end côté client. En outre il travaille également avec Github Action pour tout ce qui relève du domaine de la gestion de l'automatisation des tâches concernant l'intégration et le déploiement continu.",
+      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, en local comme en production. Il maîtrise également l'élaboration et l'exécution d'un plan de test applicatif/métier : tests unitaires, d'intégration et end-to-end côté client. Il travaille aussi avec Github Actions pour l'automatisation des tâches liées à l'intégration et au déploiement continu.",
   },
   {
     id: 3,
