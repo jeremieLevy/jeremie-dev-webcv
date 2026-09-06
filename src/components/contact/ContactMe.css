@@ -1,0 +1,22 @@
+@reference '@/index.css';
+
+.bash-contact-cmd {
+  @apply py-6 px-14 rounded-full border-light border flex items-center justify-between;
+  background-color: var(--color-dark-alt);
+}
+
+#bash-contact-input {
+  @apply font-bold w-full font-mono-alt tracking-wider text-extralight;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.contact-links {
+  @apply w-full;
+}
+
+.tag {
+  @apply max-w-64 px-6 py-4 bg-light;
+}

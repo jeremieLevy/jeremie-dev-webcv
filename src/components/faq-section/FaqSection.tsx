@@ -17,25 +17,39 @@ const faqQuestions: Question[] = [
   {
     id: 1,
     quest:
-      'Qu’elles sont les principales technologies maitrisées par jeremie-dev ? ',
-    answer: 'VueJS, Typescript, React, NestJS',
+      'Quelles sont les principales technologies maitrisées par jeremie-dev ? ',
+    answer:
+      "VueJS, Typescript, React, NestJS. Pour l'instant, principalement des stacks gravitant autour de NodeJS. Mais jeremie-dev est toujours motivé à l'idée d'apprendre de nouvelles technologies. Il à également de l'expérience avec l'intégration d'outils IA : LLMS : Claude, utilisation d'IDE comme Cursor, Antigravity avec notamment Claude Code pour améliorer la productivité. ",
   },
   {
     id: 2,
-    quest: 'Est ce que jeremie-dev s’intègre facilement dans une équipe tech ?',
+    quest:
+      'Est ce que jeremie-dev maitrise les concepts devops ? (CI/CD, démarche qualité...)',
     answer:
-      "Bien sur ! Il est d'ailleurs possible de consulter les recommandations de ses anciens collègues sur Linkedin",
+      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, docker-compose que ce soit en local ou en production. Il maitrise également le concept de l'éllaboration et exécution d'un plan de test applicatif/métier : Tests unitaires, intégration et enfin end-to-end côté client",
   },
   {
     id: 3,
-    quest: 'Est ce que jeremie-dev peut générer des blagues ?',
+    quest: 'Est-ce que jeremie-dev peut travailler avec des bases de données ?',
     answer:
-      "Il en connait quelques unes, surtout celle du canniffe... C'est un petit fien...",
+      "Oui, essentiellement avec PostgreSQL et l'ORM Prisma pour les requêtes préparées, en Typescript. Il peut aussi optimiser et travailler directement sur un schéma grace au SQL. Il pourrait aussi aisément s'adapter sur d'autres SGBD (MySQL par exemple) ou sur du NoSQL.",
   },
   {
     id: 4,
+    quest: 'Est ce que jeremie-dev s’intègre facilement dans une équipe tech ?',
+    answer:
+      "Bien sur ! Il a de l'expérience de 2 ans dans un environnement produit/tech en méthode Agile/Scrum, avec CPO, product owner/manager, ui/ux designer etc..  Il est d'ailleurs possible de consulter les recommandations de ses anciens collègues sur Linkedin.",
+  },
+  {
+    id: 5,
+    quest: 'Est ce que jeremie-dev peut générer des blagues ?',
+    answer:
+      "Il en connait quelques unes, surtout celle du cannif... C'est un petit fien...",
+  },
+  {
+    id: 6,
     quest: "Est ce qu'elles sont drôles ?",
-    answer: 'Pas toujours',
+    answer: 'Pas toujours.',
   },
 ];
 
@@ -80,7 +94,7 @@ export default function FaqSection() {
                     <div className="question">{question.quest}</div>
                     <p
                       className={clsx(
-                        'text-lg max-h-0 transition-all duration-300 ease-in-out',
+                        'md:text-lg text-sm max-h-0 transition-all duration-300 ease-in-out',
                         {
                           'max-h-42!': question.id === openAnswerId,
                         }
