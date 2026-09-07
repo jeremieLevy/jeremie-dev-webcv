@@ -1,7 +1,7 @@
 import ContainerTemplate from '../common/ui/ContainerTemplate';
-import { useOsDetection } from '@/hooks/useOsDetection';
+// import { useOsDetection } from '@/hooks/useOsDetection';
 import './ContactMe.css';
-import { useRef, useState } from 'react';
+// import { useRef, useState } from 'react';
 import Chevrons from '@/assets/graphic-elements/chevrons.svg';
 import MailLogo from '@/assets/images/logos/mail.svg';
 import LinkedinLogo from '@/assets/images/logos/linkedin-logo.svg';
