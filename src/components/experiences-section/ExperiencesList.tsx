@@ -115,13 +115,19 @@ export default function ExperiencesList() {
                   }}
                   className="experience-item"
                 >
-                  <div className="font-mono italic text-5xl font-bold">
+                  <div className="font-mono italic lg:text-5xl text-4xl font-bold">
                     {experience.year}
                   </div>
                   <img src={SmallRectangle} className="w-6 h-6 mx-auto my-8" />
-                  <p className="font-mono! text-xl!">{experience.title}</p>
-                  <p className="font-mono!">{experience.description}</p>
-                  <p className="font-mono! font-bold!">{experience.company}</p>
+                  <p className="font-mono! lg:text-xl! text-lg!">
+                    {experience.title}
+                  </p>
+                  <p className="font-mono! lg:text-lg! text-sm!">
+                    {experience.description}
+                  </p>
+                  <p className="font-mono! font-bold! lg:text-lg! text-base!">
+                    {experience.company}
+                  </p>
                 </div>
               ))}
             </div>

@@ -15,7 +15,7 @@ export default function VueSkill() {
             </div>
             <div className="w-full">
               <h2 className="mb-8!">Solide connaissance du framework VueJS</h2>
-              <p className="text-start">
+              <p className="text-start lg:text-base! text-sm/6!">
                 Au cours de ces deux années passées en tant que développeur
                 Frontend au sein de l'équipe tech de{' '}
                 <strong>Frenchfounders</strong> à Marseille, j'ai eu

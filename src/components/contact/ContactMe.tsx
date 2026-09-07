@@ -1,7 +1,7 @@
 import ContainerTemplate from '../common/ui/ContainerTemplate';
-import { useOsDetection } from '@/hooks/useOsDetection';
+// import { useOsDetection } from '@/hooks/useOsDetection';
 import './ContactMe.css';
-import { useRef, useState } from 'react';
+// import { useRef, useState } from 'react';
 import Chevrons from '@/assets/graphic-elements/chevrons.svg';
 import MailLogo from '@/assets/images/logos/mail.svg';
 import LinkedinLogo from '@/assets/images/logos/linkedin-logo.svg';
@@ -37,45 +37,45 @@ const contactLinks: ContactLink[] = [
 ];
 
 export default function ContactMe() {
-  const userOs = useOsDetection(window.navigator.userAgent.toLowerCase());
-  const [copied, setCopied] = useState<boolean>(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+  // const userOs = useOsDetection(window.navigator.userAgent.toLowerCase());
+  // const [copied, setCopied] = useState<boolean>(false);
+  // const inputRef = useRef<HTMLInputElement>(null);
 
-  const copy = async () => {
-    const value = inputRef.current?.value;
-    if (!value) return;
+  // const copy = async () => {
+  //   const value = inputRef.current?.value;
+  //   if (!value) return;
 
-    try {
-      await navigator.clipboard.writeText(value);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error('Impossible de copier :', err);
-    }
-  };
+  //   try {
+  //     await navigator.clipboard.writeText(value);
+  //     setCopied(true);
+  //     setTimeout(() => setCopied(false), 2000);
+  //   } catch (err) {
+  //     console.error('Impossible de copier :', err);
+  //   }
+  // };
 
-  const handleSetBashCommand = (os: string) => {
-    if (os === 'Windows') {
-      return 'start "mailto:email@exemple.com?subject=Contact"';
-    } else if (os === 'MacOS') {
-      return 'open "mailto:email@exemple.com?subject=Contact"';
-    } else if (os === 'Linux') {
-      return 'xdg-open "mailto:email@exemple.com?subject=Contact"';
-    } else {
-      return undefined;
-    }
-  };
+  // const handleSetBashCommand = (os: string) => {
+  //   if (os === 'Windows') {
+  //     return 'start "mailto:email@exemple.com?subject=Contact"';
+  //   } else if (os === 'MacOS') {
+  //     return 'open "mailto:email@exemple.com?subject=Contact"';
+  //   } else if (os === 'Linux') {
+  //     return 'xdg-open "mailto:email@exemple.com?subject=Contact"';
+  //   } else {
+  //     return undefined;
+  //   }
+  // };
   return (
     <section id="contact">
       <ContainerTemplate size="large">
-        <div className="pb-48 relative">
+        <div className="py-48 relative">
           <div className="flex items-center w-full justify-between">
             <h3 className="lg:text-4xl! text-2xl! font-mono-alt! font-bold! tracking-wider!">
               On se parle ?
             </h3>
             <img src={Chevrons} className="lg:max-w-24 max-w-18" />
           </div>
-          {handleSetBashCommand(userOs ?? '') !== undefined ? (
+          {/* handleSetBashCommand(userOs ?? '') !== undefined ? (
             <div className="bash-contact-cmd" onClick={copy}>
               <input
                 id="bash-contact-input"
@@ -101,7 +101,7 @@ export default function ContactMe() {
             </div>
           ) : (
             <div />
-          )}
+          )*/}
           <div className="contact-links">
             {contactLinks.map((link) => (
               <div className="tag">
