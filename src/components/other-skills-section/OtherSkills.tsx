@@ -36,7 +36,7 @@ export default function OtherSkills() {
           <div className="other-skills">
             <div className="order-2 md:order-1 w-full">
               <h3>Et d'autres...</h3>
-              <p>
+              <p className="lg:text-base! text-sm/6!">
                 J'ai également un scope de compétences plus élargi grâce à
                 l'utilisation de technologies Backend (environnement serveur
                 NodeJS en Typescript), avec une bonne pratique du framework

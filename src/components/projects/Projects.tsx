@@ -100,7 +100,7 @@ export default function Projects() {
           <div className="relative mb-20">
             <div className="flex items-center justify-center gap-8">
               <img src={Rectangle} className="max-w-4" />
-              <div className="font-mono-alt font-bold md:text-6xl text-5xl">
+              <div className="font-mono-alt font-bold md:text-6xl text-4xl">
                 Projets
               </div>
               <img src={Rectangle} className="max-w-4" />
