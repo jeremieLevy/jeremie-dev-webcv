@@ -14,37 +14,37 @@ type Question = {
 };
 
 const faqQuestions: Question[] = [
-  {
-    id: 1,
-    quest:
-      'Quelles sont les principales technologies maitrisées par jeremie-dev ? ',
-    answer:
-      "VueJS, Typescript, React, NestJS. Pour l'instant, principalement des stacks gravitant autour de NodeJS. Mais jeremie-dev est toujours motivé à l'idée d'apprendre de nouvelles technologies. Il à également de l'expérience avec l'intégration d'outils IA : LLMS : Claude, utilisation d'IDE comme Cursor, Antigravity avec notamment Claude Code pour améliorer la productivité. ",
-  },
+  // {
+  //   id: 1,
+  //   quest:
+  //     'Quelles sont les principales technologies maitrisées par jeremie-dev ? ',
+  //   answer:
+  //     "VueJS, Typescript, React, NestJS. Pour l'instant, principalement des stacks gravitant autour de NodeJS. Mais jeremie-dev est toujours motivé à l'idée d'apprendre de nouvelles technologies. Il à également de l'expérience avec l'intégration d'outils IA : LLMS : Claude, utilisation d'IDE comme Cursor, Antigravity avec notamment Claude Code pour améliorer la productivité. ",
+  // },
   {
     id: 2,
     quest:
-      'Est ce que jeremie-dev maitrise les concepts devops ? (CI/CD, démarche qualité...)',
+      'Est ce que je connais les concepts devops ? (CI/CD, démarche qualité...)',
     answer:
-      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). Il utilise principalement Docker, en local comme en production. Il maîtrise également l'élaboration et l'exécution d'un plan de test applicatif/métier : tests unitaires, d'intégration et end-to-end côté client. Il travaille aussi avec Github Actions pour l'automatisation des tâches liées à l'intégration et au déploiement continu.",
+      "Oui, ainsi que les concepts des différents environnements d'une application (dev, staging, prod). J'utilise principalement Docker, en local comme en production. Je maîtrise également l'élaboration et l'exécution d'un plan de test applicatif/métier : tests unitaires, d'intégration et end-to-end côté client. Je travaille avec Github Actions pour l'automatisation des tâches liées à l'intégration et au déploiement continu.",
   },
-  {
-    id: 3,
-    quest: 'Est-ce que jeremie-dev peut travailler avec des bases de données ?',
-    answer:
-      "Oui, essentiellement avec PostgreSQL et l'ORM Prisma pour les requêtes préparées, en Typescript. Il peut aussi optimiser et travailler directement sur un schéma grace au SQL. Il pourrait aussi aisément s'adapter sur d'autres SGBD (MySQL par exemple) ou sur du NoSQL.",
-  },
+  // {
+  //   id: 3,
+  //   quest: 'Est-ce que jeremie-dev peut travailler avec des bases de données ?',
+  //   answer:
+  //     "Oui, essentiellement avec PostgreSQL et l'ORM Prisma pour les requêtes préparées, en Typescript. Il peut aussi optimiser et travailler directement sur un schéma grace au SQL. Il pourrait aussi aisément s'adapter sur d'autres SGBD (MySQL par exemple) ou sur du NoSQL.",
+  // },
   {
     id: 4,
-    quest: 'Est ce que jeremie-dev s’intègre facilement dans une équipe tech ?',
+    quest: 'Est ce que je m’intègre facilement dans une équipe tech ?',
     answer:
-      "Bien sur ! Il a une expérience de 2 ans dans un environnement produit/tech en méthode Agile/Scrum, sous la responsabilité d'un CPO, de plusieurs product owner/managers, et en collaboration avec une UI/UX designer.  Il est d'ailleurs possible de consulter les recommandations de ses anciens collègues sur Linkedin.",
+      "Bien sur ! Avec une expérience de 2 ans dans un environnement produit/tech en méthode Agile/Scrum, sous la responsabilité d'un CPO, de plusieurs product owner/managers, et en collaboration avec une UI/UX designer.  Il est d'ailleurs possible de consulter les recommandations de mes anciens collègues sur Linkedin.",
   },
   {
     id: 5,
-    quest: 'Est ce que jeremie-dev peut générer des blagues ?',
+    quest: 'Est ce que je peux générer des blagues ?',
     answer:
-      "Il en connait quelques unes, surtout celle du canif... C'est un petit fien...",
+      "J'en connait quelques unes, surtout celle du canif... C'est un petit fien...",
   },
   {
     id: 6,

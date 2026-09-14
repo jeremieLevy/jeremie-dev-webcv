@@ -11,6 +11,7 @@ import GraphicPortfolio from './components/portfolio-section/GraphicPortfolio';
 import Projects from './components/projects/Projects';
 import ContactMe from './components/contact/ContactMe';
 import Footer from './components/common/Footer';
+import FaqSection from './components/faq-section/FaqSection';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <ExperiencesList />
         <Projects />
         <GraphicPortfolio />
-        {/* <FaqSection /> */}
+        <FaqSection />
         <ContactMe />
         <Footer />
       </main>

@@ -107,7 +107,7 @@ export default function Projects() {
             </div>
             <img
               src={Wireframe}
-              className="-z-10 absolute inset-0 -top-20 left-[50%] translate-x-[-50%] max-w-80"
+              className="-z-10 absolute inset-0 -top-20 left-[50%] translate-x-[-50%] md:max-w-80 max-w-64 opacity-70"
             />
           </div>
           <div className="stacker-frame">
