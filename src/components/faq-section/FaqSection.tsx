@@ -44,7 +44,7 @@ const faqQuestions: Question[] = [
     id: 5,
     quest: 'Est ce que je peux générer des blagues ?',
     answer:
-      "J'en connait quelques unes, surtout celle du canif... C'est un petit fien...",
+      "J'en connais quelques unes, surtout celle du canif... C'est un petit fien...",
   },
   {
     id: 6,
