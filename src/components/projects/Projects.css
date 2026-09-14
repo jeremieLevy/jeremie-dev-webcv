@@ -34,7 +34,7 @@
 }
 
 .stacker {
-  @apply overflow-y-auto relative space-y-16;
+  @apply md:overflow-y-auto overflow-hidden relative space-y-16;
   max-height: 30rem;
 }
 
